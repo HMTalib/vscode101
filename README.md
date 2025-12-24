@@ -1,4 +1,4 @@
-# Project Title
+# A Small Application
 
 A short description of the project — what it is and why it exists.
 
@@ -6,6 +6,7 @@ A short description of the project — what it is and why it exists.
 
 - Minimal starter files (HTML)
 - Clear quick-start instructions
+- Using this to practise branching and merging strategies
 
 ## Prerequisites
 
@@ -29,6 +30,13 @@ open index.html
 ## License
 
 This project is provided as-is under no specific license. Add a license file if you need one.
+
+## Branching
+
+Below are the current branches
+
+- main
+- Feature/user-authentication
 
 ---
 
