@@ -16,6 +16,7 @@ A short description of the project — what it is and why it exists.
 
 1. Open the project folder.
 2. Open `index.html` in your browser:
+3. Display content
 
 ```bash
 open index.html
