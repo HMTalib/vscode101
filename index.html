@@ -1,29 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Basic HTML Starter</title>
-	<style>
-		body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; max-width:60ch; margin:4rem auto; padding:0 1rem; color:#111; line-height:1.5 }
-		header { margin-bottom:2rem }
-		.btn { display:inline-block; background:#0366d6; color:#fff; padding:.5rem 1rem; border-radius:6px; text-decoration:none }
-		footer { margin-top:4rem; font-size:.9rem; color:#666 }
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<h1>Welcome</h1>
-		<p>A minimal, responsive HTML starter file.</p>
-		<!-- <p>A minimal, responsive HTML starter file.</p> -->
-	</header>
-	<main>
-		<h2>Getting started</h2>
-		<p>Edit this file to begin building your site.</p>
-		<p><a class="btn" href="#">Get started</a></p>
-		<p><a class="btn" href="#">Processing Items</a></p>
-		<p><a class="btn" href="#">Completed</a></p>
-	</main>
-	<footer>© 2025</footer>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <p>Organize your tasks efficiently</p>
+        </header>
+        <main>
+            <form class="task-form" id="task-form">
+                <label for="task-input" class="sr-only">Enter a new task</label>
+                <input type="text" id="task-input" class="task-input" placeholder="Enter a new task with new Date" required aria-describedby="task-help">
+                <small id="task-help" class="sr-only">Press Enter or click Add Task to create a new task</small>
+                <button type="submit" class="add-btn">Add Task</button>
+            </form>
+            <ul class="task-list" id="task-list" aria-label="List of tasks"></ul>
+        </main>
+        <footer>
+            <p>&copy; 2025 Task Manager App</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
